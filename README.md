@@ -85,9 +85,14 @@
 
    > 此脚本会加载data/test.txt和训练好的模型math_classifier.bin，并返回测试结果，展示为精确率和召回率
 
+4. **执行数据打标脚本**
+
+   ```bash
+   python predict_fineweb.py
+   ```
+
+   > 此脚本会从Hugging Face流式下载5000条数据，并使用训练好的模型math_classifier.bin进行分类预测，结果保存在fineweb_5000_predictions.txt中。
 ------
-
-
 
 ## 4. 实现过程
 
@@ -124,7 +129,7 @@
 
 **训练过程日志:**
 
-> ![image-20250706213926816](images\image-20250706213926816.png)
+> ![image-20250706213926816](images/image-20250706213926816.png)
 
 #### d. 效果评估
 
@@ -132,7 +137,7 @@
 
 **测试结果日志:**
 
-> ![image-20250706214047642](images\image-20250706214047642.png)
+> ![image-20250706214047642](images/image-20250706214047642.png)
 
 ------
 
