@@ -87,6 +87,13 @@
 
 ------
 
+4. **执行数据打标脚本**
+
+   ```bash
+   python predict_fineweb.py
+   ```
+
+   > 此脚本会从Hugging Face流式下载5000条数据，并使用训练好的模型math_classifier.bin进行分类预测，结果保存在fineweb_5000_predictions.txt中。
 
 
 ## 4. 实现过程
