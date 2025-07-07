@@ -85,8 +85,6 @@
 
    > 此脚本会加载data/test.txt和训练好的模型math_classifier.bin，并返回测试结果，展示为精确率和召回率
 
-------
-
 4. **执行数据打标脚本**
 
    ```bash
@@ -94,7 +92,7 @@
    ```
 
    > 此脚本会从Hugging Face流式下载5000条数据，并使用训练好的模型math_classifier.bin进行分类预测，结果保存在fineweb_5000_predictions.txt中。
-
+------
 
 ## 4. 实现过程
 
